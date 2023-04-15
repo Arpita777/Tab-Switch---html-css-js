@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tab-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: black;
+  color: blue;
+}
+h5 {
+  width: 50px;
+  padding: 10px;
+  height: 20px;
+}
+h5:hover {
+  cursor: pointer;
+  color: white;
+  background: grey;
+}
+.active {
+  cursor: pointer;
+  color: white;
+  background: grey;
+}
+p {
+  display: none;
+}
+.show {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+/* 
+p {
+  display: none;
+} */
